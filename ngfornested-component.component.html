@@ -1,0 +1,15 @@
+<div>
+<h2>Product </h2>
+<ol>
+<li *ngfor="let iteam of the data ">
+    {{iteam.catogory}}
+    <ol type="a">
+        <li *ngfor="let  product of item.product">
+{{product}}
+
+        </li>
+        </ol>
+
+</ol>
+
+</div>
